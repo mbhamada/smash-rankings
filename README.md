@@ -17,8 +17,9 @@ A simple program I wrote for Smash at Berkeley used to rank and collect data on 
 3. In the names folder create three .txt files titled "credentials.txt", "players.txt", and "tournaments.txt"
 4. In credentials.txt, type your Challonge key for the first line and Challonge password for the second line
 5. players.txt is used for player tag conflicts i.e. if a player does not use consistent tags between any two tournaments. 
-   For each conflict add a line with the incorrect tag followed by " * " followed by the prefered tag. For example:
-   ```wrongTag * rightTag```
+   For each conflict, add a line with the incorrect tag followed by " * " followed by the prefered tag. 
+
+   For example: ```wrongTag * rightTag```
 6. In tournaments.txt, for each line type the tournament Challonge id
 7. Verify that you have no additional lines for the latter two files
 
