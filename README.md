@@ -12,13 +12,13 @@ A simple program I wrote for Smash at Berkeley used to rank and collect data on 
 
 ### Prerequisites
 
-1. Create a new directory to store the api_smash4.py
-2. Create a folder titled "names"
-3. In this folder create three .txt files titled "credentials.txt", "players.txt", and "tournaments.txt"
-4. In credentials.txt, type your Challonge key for the first line and password for the second line
-5. players.txt is used for player tag conflicts i.e. if a player uses a different tag for a differnt tournament. 
+1. Create a new directory to store the api_smash4.py file
+2. Create a folder titled "names" in this directory
+3. In the names folder create three .txt files titled "credentials.txt", "players.txt", and "tournaments.txt"
+4. In credentials.txt, type your Challonge key for the first line and Challonge password for the second line
+5. players.txt is used for player tag conflicts i.e. if a player does not use consistent tags between any two tournaments. 
    For each conflict add a line with the incorrect tag followed by " * " followed by the prefered tag. See:
-   ```playername * player name```
+   ```playername * player name``` where "player name" is the prefered player tag
 6. In tournaments.txt, for each line type the tournament Challonge id
 7. Verify that you have no additional lines for the latter two files
 
